@@ -1,0 +1,61 @@
+[{
+        "socialmedia":[{
+                "id":1,
+                "name":"fa-facebook",
+                "href":"www.facebook.com"
+            },
+            {
+                "id":2,
+                "name":"fa-instagram",
+                "href":"www.instagram.com"
+            },
+            {
+                "id":3,
+                "name":"fa-youtube",
+                "href":"www.youtube.com"
+            },
+            {
+                "id":4,
+                "name":"fa-twitter",
+                "href":"www.twitter.com"
+            },
+            {
+                "id":5,
+                "name":"fa-pinterest",
+                "href":"www.pinterest.com"
+            }],
+    "socialMediaAuthor":[
+                    {
+                        "href":"www.facebook.com/ivanaivivanaiv",
+                        "name":"fa-facebook"
+                    },{
+                        "href":"www.instagram.com/_ivana_iv",
+                        "name":"fa-instagram"
+                    },{
+                        "href":"www.twitter.com",
+                        "name":"fa-twitter"
+                    },{
+                        "href":"github.com/IvanaIv99",
+                        "name":"fa-github"
+                    }
+    ],
+    "informations":[
+        {
+            "name":"About us",
+            "desc":"We have been involved in the world of gemstones, crystals, and fossils for nearly 5 years now.  We work with mines, cutters, and stone masons around the world to seek out the best quality raw, rough, tumbled, faceted, polished and lapidary gemstones.  We hand-select the gemstones we provide in our shop as every stone has a story and we want the gemstones to show you their natural power.</br> &#9885; </br>We are a small business who puts a lot of time, energy, and love into everything we do.  You can buy our gemstones online for working with crystal healing or crystal grids, because you’re a rock hound, or because you simply love the beauty of gemstones for decorative purposes.</br> &#9885; </br>We welcome questions and providing you assistance in choosing the gemstones that will prove significant to your life journey.Products sold by Crystal Gemstone Shop are intended for adult collectors of crystals and gemstones; children 14 years of age or younger should only work with crystals and gemstones with adult supervision."
+        },
+        {
+            "name":"Privacy Policy",
+            "desc":"In today's world of cyberspace privacy is becoming ever more important as the capacity grows for misuse of information you may provide in the course of doing business. We are committed to keeping any information you may provide in the course of your use of this site or that we may gather about you entirely private. We pledge absolutely not to pass that information on, to disclose it or to allow access of any third party to that information with the exception of third parties required to fulfil a cvlient order. We use an external shipping company to ship orders and a third part payment processor to process payments on this website. These companies do not retain, store or use personal information for any other purpose."
+        },
+        {
+            "name":"Delivery Informations",
+            "desc":"Shipping is on Mondays and Thursdays (not on public and bank holidays).</br> &#9885; </br>We provide the lowest shipping cost possible through USPS and FedEx. We do ship worldwide so everyone can enjoy the beauty & power of our offerings. </br> &#9885; </br>We ship anywhere from the 1 business day to 3 business days of your order; depending on order flow. Then you can select during check out the type of delivery you wish for your package.We are not responsible for lost packages, but we do everything we can from our side with the United States Postal Service to help you locate your lost package.</br> &#9885; </br> While most international packages arrive within 1-2 weeks it can take up to 8 weeks for delivery in some countries. Be aware that any international customs office can detain a package for up to 30 days."
+        },
+        {
+            "name":"Terms & Conditions",
+            "desc":"Crystal Gemstone Shop offers a 100% money back satisfaction guarantee for our crystals and gems. Please contact us within 10 days of delivery of your package.  You can opt for an exchange or refund. </br> &#9885; </br> Please do not leave neutral or negative feedback without giving us a chance to make things right - we love keeping our collectors happy.To return any order you must contact us first to receive authorization for the return.  When you return an order everything must be in the original packaging; which means the bubble wrap, box, and any other packing materials you received it with.  It must be returned in the same box or bubble mailer your order arrived in, and you must include a copy of the original invoice so we can correctly identify you as the customer.</br> &#9885; </br>  The returned order must be received in the same condition you received it in.  If the returned order arrives broken due to careless re-packaging, or if you return an order without receiving the proper acknowledgement from us, your order will not be eligible for return credit.We accept Paypal and all major credit cards.  Any state or local taxes that apply will be collected.  If you have to cancel an order please do so within 24 hours as your item may ship the same day."
+        }
+
+    ]
+}]

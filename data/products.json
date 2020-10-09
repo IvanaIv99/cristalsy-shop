@@ -1,0 +1,383 @@
+[
+    {   
+        "id":1,
+        "image":
+                {
+                    "src":"IMG/amethyst1.jpg",
+                    "alt":"Amethyst Raw"
+                },
+        "name":"AMETHYST NATURAL RAW ROUGH",
+        "prices":
+                {
+                    "price":"1350",
+                    "salePrice":false
+                },
+        "description":"Amethyst is a beautiful stone that promotes power from within yourself, attracts power where it is needed in your life, providing calming & soothing energies, and protects against malicious curses, hexes, psychic attacks.",
+        "categories":[{
+            "id":1,
+            "catName":"Amethyst"
+        }],
+        "moreInfo":[{
+            "weight":"300",
+            "measurments":""
+        }]            
+    },
+    {   
+        "id":2,
+        "image":
+                {
+                    "src":"IMG/amethyst2.jpg",
+                    "alt":"Amethyst Obelisk"
+                },
+        "name":"CHEVRON AMETHYST OBELISK",
+        "prices":
+                {
+                    "price":"1225",
+                    "salePrice":false
+                },
+        "description":"Chevron Amethyst is a mixture of Amethyst and Quartz which creates amazing 90 degree angle chevron patterns. The stone facilitates acceptance, forgiveness and understanding.",
+        "categories":[ {
+            "id":1,
+            "catName":"Amethyst"
+        }],
+        "moreInfo":[{
+            "weight":"255",
+            "measurments":"9 cm length, 5 cm wide, 3 cm height  (all measurements are from longest points approx.)"
+        }]   
+    },
+    {   
+        "id":3,
+        "image":
+                {
+                    "src":"IMG/amethyst3.jpg",
+                    "alt":"Puffy heart Amethist"
+                },
+        "name":"AMETHYST POLISHED PUFFY HEART",
+        "prices":
+                {
+                    "price":"1495",
+                    "salePrice":false
+                },
+        "description":"Amethyst is a beautiful stone that promotes power from within yourself, attracts power where it is needed in your life, provides calming & soothing energies, protects against malicious curses, hexes, psychic attacks. ",
+        "categories":[{
+            "id":1,
+            "catName":"Amethyst"
+        }],
+        "moreInfo":[{
+            "weight":"50",
+            "measurments":"3x2 cm"
+        }]   
+    },
+    {   
+        "id":4,
+        "image":
+                {
+                    "src":"IMG/amethyst4.jpg",
+                    "alt":"Amethyst polished"
+                },
+        "name":"CHEVRON AMETHYST POLISHED TUMBLED ",
+        "prices":
+                {
+                    "price":"1350",
+                    "salePrice":false
+                },
+        "description":"Chevron Amethyst is a mixture of Amethyst and Quartz which creates amazing 90 degree angle chevron patterns. The stone facilitates acceptance, forgiveness and understanding.",
+        "categories":[ {
+            "id":1,
+            "catName":"Amethyst"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                   
+    },
+    {   
+        "id":5,
+        "image":
+                {
+                    "src":"IMG/jasper1.jpg",
+                    "alt":"Jasper Dalmatian"
+                },
+        "name":"DALMATIAN JASPER TUMBLED POLISHED",
+        "prices":
+                {
+                    "price":"1450",
+                    "salePrice":false
+                },
+        "description":"Dalmatian Jasper is a fantastic stone to work with if you feel like your life is stale and you could use an uplift in your life. Dalmatian Jasper is a lively stone that plays to your sense of youthfulness, creativity and joy.",
+        "categories":[ {
+            "id":2,
+            "catName":"Jasper"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                   
+    },
+    {   
+        "id":6,
+        "image":
+                {
+                    "src":"IMG/jasper2.jpg",
+                    "alt":"Jasper Sterling"
+                },
+        "name":"DALMATIAN JASPER STERLING PENDANT",
+        "prices":
+                {
+                    "price":"1100",
+                    "salePrice":false
+                },
+        "description":"Dalmatian Jasper is a fantastic stone to work with if you feel like your life is stale and you could use an uplift in your life. Dalmatian Jasper is a lively stone that plays to your sense of youthfulness, creativity and joy.",
+        "categories":[{
+            "id":2,
+            "catName":"Jasper"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+    },
+    {   
+        "id":7,
+        "image":
+                {
+                    "src":"IMG/jasper3.jpg",
+                    "alt":"Jasper Zebra"
+                },
+        "name":"ZEBRA JASPER MEDITATION STONE",
+        "prices":
+                {
+                    "price":"1850",
+                    "salePrice":false
+                },
+        "description":"Zebra Jasper naturally promotes unity and acceptance of the differences in others. It is an anti-negativity gemstone that provides a barrier from pessimism and negative thinking and promotes a positive, optmistic outlook in life.",
+        "categories":[{
+            "id":2,
+            "catName":"Jasper"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                    
+    },
+    {   
+        "id":8,
+        "image":
+                {
+                    "src":"IMG/jasper4.jpg",
+                    "alt":"Kambaba Jasper"
+                },
+        "name":"KAMBABA JASPER POLISHED TUMBLED",
+        "prices":
+                {
+                    "price":"1800",
+                    "salePrice":false
+                },
+        "description":"Kambaba Jasper is a stone that brings peace, happiness, tranquility and a close connection to nature. This gemstone brings you balance, harmony, grace, and connection to the positive forces of the world.",
+        "categories":[ {
+            "id":2,
+            "catName":"Jasper"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                   
+    },
+    {   
+        "id":9,
+        "image":
+                {
+                    "src":"IMG/tourmaline1.jpg",
+                    "alt":"Black Tourmaline Rough"
+                },
+        "name":"BLACK TOURMALINE ROUGH",
+        "prices":
+                {
+                    "price":"1855",
+                    "salePrice":false
+                },
+        "description":"Black Tourmaline has always been the shamans tool for protection against the force of negativity, internal conflict and destructive forces. Ancient magicians relied upon Black Tourmaline, known as Schorl, to protect them from earth demons as they cast their spells.",
+        "categories":[  {
+            "id":3,
+            "catName":"Tourmaline"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                  
+    },
+    {   
+        "id":10,
+        "image":
+                {
+                    "src":"IMG/tourmaline2.jpg",
+                    "alt":"Black Tourmaline Rough"
+                },
+        "name":"MULTI-TOURMALINE NATURAL RAW ROUGH",
+        "prices":
+                {
+                    "price":"1550",
+                    "salePrice":false
+                },
+        "description":"Black Tourmaline possesses natural powers of good luck and healing. It resonates with the Root Chakra and allows for you to repel negative energy away from you",
+        "categories":[ {
+            "id":3,
+            "catName":"Tourmaline"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+    },
+    {   
+        "id":11,
+        "image":
+                {
+                    "src":"IMG/tourmaline3.jpg",
+                    "alt":"Black Multi Tourmaline Rough"
+                },
+        "name":"MULTI TOURMALINE NATURAL POLISHED",
+        "prices":
+                {
+                    "price":"1000",
+                    "salePrice":false
+                },
+        "description":"Black Tourmaline possesses natural powers of good luck and healing. It resonates with the Root Chakra and allows for you to repel negative energy away from you.",
+        "categories":[ 
+             {
+            "id":3,
+            "catName":"Tourmaline"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                  
+    },
+    {   
+        "id":12,
+        "image":
+                {
+                    "src":"IMG/tourmaline4.jpg",
+                    "alt":"Black Multi Tourmaline Rough"
+                },
+        "name":"BLACK TOURMALINE WITH QUARTZ",
+        "prices":
+                {
+                    "price":"1095",
+                    "salePrice":false
+                },
+        "description":"Black Tourmaline possesses natural powers of good luck and healing. It resonates with the Root Chakra and allows for you to repel negative energy away from you.",
+        "categories":[
+            {
+                "id":3,
+                "catName":"Tourmaline"
+            }
+        ],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+    },
+    {   
+        "id":13,
+        "image":
+                {
+                    "src":"IMG/quartz1.jpg",
+                    "alt":"Rose Quartz Tumble"
+                },
+        "name":"ROSE QUARTZ TUMBLE POLISHED",
+        "prices":
+                {
+                    "price":"3000",
+                    "salePrice":false
+                },
+        "description":"The fair and lovely Rose Quartz, with its gentle pink essence, is a stone of the heart, a Crystal of Unconditional Love. It carries a soft feminine energy of compassion and peace, tenderness and healing, nourishment and comfort.",
+        "categories":[
+            {
+                "id":4,
+                "catName":"QUARTZ"
+            }
+        ],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                   
+    },{   
+        "id":14,
+        "image":
+                {
+                    "src":"IMG/quartz2.jpg",
+                    "alt":"Quartz Raw"
+                },
+        "name":"QUARTZ CRYSTAL NATURAL ROUGH RAW",
+        "prices":
+                {
+                    "price":"1375",
+                    "salePrice":false
+                },
+        "description":"Quartz is the living embodiment of power. It is the most powerful crystal among all for its supernatural abilities related to healing, living memory, spiritual guidance, spiritual power, connections to all paranormal forces, and ability to project and interact within all the Realms.",
+        "categories":[ {
+            "id":4,
+            "catName":"QUARTZ"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                   
+    },{   
+        "id":15,
+        "image":
+                {
+                    "src":"IMG/quartz3.jpg",
+                    "alt":"Titanium quartz"
+                },
+        "name":"TITANIUM ANGEL AURA QUARTZ GEODE",
+        "prices":
+                {
+                    "price":"1995",
+                    "salePrice":false
+                },
+        "description":"Angel Aura Quartz radiates with a tender and ethereal energy that fills you from soul to spirit. With angelic grace it caresses you with celestial power that encourages connection with your angelic guides.",
+        "categories":[  {
+            "id":4,
+            "catName":"QUARTZ"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                  
+    },
+    {   
+        "id":16,
+        "image":
+                {
+                    "src":"IMG/quartz4.jpg",
+                    "alt":"Titanium quartz"
+                },
+        "name":"GOLD TITANIUM AURA QUARTZ GEODE DRUZY",
+        "prices":
+                {
+                    "price":"3595",
+                    "salePrice":false
+                },
+        "description":"Gold Titanium Quartz is a powerful stone for attracting prosperity and wealth. This stone resonates with the ancient and primal forces of prosperity and hope.",
+        "categories":[ {
+            "id":4,
+            "catName":"QUARTZ"
+        }],
+        "moreInfo":[{
+            "weight":"",
+            "measurments":""
+        }]   
+                   
+    }
+]

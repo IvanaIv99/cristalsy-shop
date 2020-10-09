@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "catName":"Amethyst"
+    },
+    {
+        "id":2,
+        "catName":"Jasper"
+    },
+    {
+        "id":3,
+        "catName":"Tourmaline"
+    },
+    {
+        "id":4,
+        "catName":"Quartz"
+    }
+    
+  ]

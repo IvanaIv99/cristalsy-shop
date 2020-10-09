@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "name":"welcome",
+        "href":"#welcome"
+    },
+    {
+        "id":2,
+        "name":"benefits",
+        "href":"#benefits"
+    },
+    {
+        "id":3,
+        "name":"discover",
+        "href":"#findChristal"
+    },
+    {
+        "id":4,
+        "name":"products",
+        "href":"#products"
+    },
+    {
+        "id":5,
+        "name":"register",
+        "href":"#register"
+    },
+    {
+        "id":6,
+        "name":"author",
+        "href":"#author"
+    }
+
+
+]
