@@ -1,0 +1,1750 @@
+@font-face {
+    font-family:"Magic";
+    src: url(../fonts/Wildy-Sans.ttf);
+} 
+@font-face {
+    font-family:"Moon";
+    src: url(../fonts/MoongladeDemoBold-jOzM.ttf);
+} 
+@font-face {
+    font-family:"Jolly";
+    src: url(../fonts/Jolly.ttf);
+}     
+
+*{
+    margin:0px auto;
+    font-family:"Jolly";
+    box-sizing: border-box;
+}
+body{
+    background-color: #21152B;
+    
+}
+ul{
+    list-style-type: none;
+}
+header{
+    width:100%;
+    height:100vh;
+    display: flex;
+    background-image: url("../IMG/tumblr.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: #F7F7F9;
+    background-position-y: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+#logoSredina{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:40%;
+    margin:15% 40% 0%;
+    margin-left:55%;
+}
+#logoSredina h1{
+    font-size: 9rem;
+    font-family:"Magic";  
+    color:#21152B; 
+}
+#shopnowBtn{
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+    margin-top:5%;
+    font-family:"Magic";
+    text-transform: lowercase;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #21152B;
+    border-radius: 50px;
+    width:30%;
+    height:5.5vh;
+    border:none;
+}
+#shopnowBtn:hover{
+    background-color: #aca0ea ;
+    color:#21152B;
+    font-weight: bold;
+    transition: all 0.4s ease 0s;
+}
+.fa-bars{
+    color:#21152B;
+    float: right; 
+    margin:1% 0% 0% 95%;
+    cursor:pointer;
+}
+.fa-times{
+    margin:2% 0% 0% 95.5%;
+    font-size: 2.5rem;
+    cursor:pointer;
+}
+.overlayMenu {   
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    background-color: rgba(33,21,43, 0.98); 
+    overflow-x: hidden; 
+}
+#menuFull{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#menuList {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0% 21%;
+    margin-top:-2%;
+}
+#menuList ul li {
+    padding:2%;
+    list-style-type: none;
+}
+#menuList ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 3.7rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: "Magic";
+}
+#menuList ul li a:hover{
+    color:#aca0ea;
+    font-weight: bold;
+    transition: all 0.4s ease 0s;
+} 
+#menuBasket{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    margin-top:4%;
+}
+#menuBasket i{
+    font-size: 2.5rem;
+}
+#welcome,#benefits,#products,#register{
+    width:100%;
+}
+#register{
+    margin:5% 0%;
+}
+.zvezdica{
+    font-size: 5rem;
+    margin:2% 53%;
+    color:white;
+    padding:1%;
+    display: block;
+    font-weight: bold;
+}
+.naslov,.blokP p{
+    color:white;
+    text-align: center;
+}
+.naslov{
+    font-size:2rem;
+    padding-bottom:2%;
+    margin-bottom:2%;
+    font-family:"Magic";
+}
+.naslovMargin{
+    margin-top:10%;
+}
+.blokP p{
+    font-size:2rem;
+    width:100%;
+    letter-spacing: 0.2rem;
+    line-height: 1.9rem;
+    margin:10% 0% 2% 0;
+}
+
+.blokP .av-container{
+    width:50%;
+}
+.dot{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+}
+.blokP{
+    display: flex;
+    width:100%;
+}
+/*SLIDESHOW*/
+#slikaWelcome1,#slikaWelcome2,#slikaWelcome3{
+    width:30%;
+    height:50vh;
+}
+#slikaWelcome1{
+    margin-top: 3%;
+}
+.slideshowdiv{
+    width:100%;
+    height:50vh;
+    border:5px solid white;   
+    background-size: cover;
+    display:none;
+    background-position-y: center;
+    margin-top:5%;
+}
+.aktivna{
+    display:block;
+}
+
+/*BIRTHSIGN*/
+#findChristal{
+    width:100%;
+}
+
+#signFormaDiv{
+    width:30%;
+}
+.ispisZnaka{
+    color:white;
+    width:30%;
+    margin:0% auto;
+}
+.ispisKristal{
+    width:30%;
+}
+
+#ispisBlok{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color:white;
+    align-content: center;
+    margin-top:5%;
+}
+#ispisBlok h2{
+    font-size: 1.7rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+#ispisBlok h3{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+#ispisBlok .opisKristal{
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    line-height: 1.6rem;
+}
+#ispisBlok .opisZnak{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.5rem;
+}
+#ispisBlok img{
+    width:30%;
+    margin:10% 0% 10% 35%;
+}
+.ispisKristal img{
+    width:40%;
+}
+#dateForm{
+    width:50%;
+    height:5vh;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 10%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border:2px solid #C14EDD;
+} 
+#submitFormDate{
+    height: 5.4vh;
+    width:20%;
+    padding-right: 2%;
+    border-radius: 0px 20px 20px 0px;
+    background-color:white;
+    font-size: 1.2rem;
+    border:2px solid #C14EDD;
+    font-weight: bold;
+}
+#submitFormDate:hover{
+    background-color: #C14EDD ;
+    color:white;
+    font-weight: bold;
+    transition: all 0.4s ease 0s;
+    border:none;
+}
+.regexError {
+    font-size:1rem;
+    color:red;
+}
+.regexErrorOption {
+    font-size:1rem;
+}
+
+/*PRODUCTS*/
+/* #productBar .fa-shopping-cart{
+    padding:40%;
+    font-weight: bold;    
+    font-size:1.2rem;
+    margin: 5% 20%;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #aca0ea;
+} */
+#productBar{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 -2% 0%;
+}
+.prodToggle{
+    width:20%;
+    height: auto;
+}
+.prodToggle:nth-of-type(1){
+    margin-left:3%;
+}
+.prodToggle:nth-of-type(2){
+    margin-left:-12%;
+    width:15%;
+}
+.prodToggle i{
+    font-size:1.3rem;
+}
+.prodToggle p{
+    color:white;
+    font-size:1.5rem;
+}
+#sort{
+    padding-bottom: 2%;
+    margin-left:-12%;
+    
+}
+#catList{
+   width:50%;
+}
+#sortList{
+    width:70%;
+    margin-left:10%;
+    
+}
+#sortList li{
+    padding:0%0%;
+    color:white;
+}
+#sortList a{
+    margin-left:20%;
+}
+#catList li,#sortList li{
+    margin-left:-25%;
+    font-size: 1.1em;
+}
+#catList li a:hover,#sortList li a:hover{
+    color:#aca0ea;
+}
+#catList li::before{
+    content: "▸";
+    color:white;
+    font-size: 1.5em;
+}
+#sortList li a::before{
+    content:"\203A ";
+    color:white;
+    font-size: 1.5rem;
+}
+
+#searchBarAndCart{
+    width:20%;
+    margin-right:7%;
+}
+#searchFilter{
+    width:70%;
+    border-radius: 20px;
+    height:5vh;
+    border:none;
+    padding-left:2%; 
+}
+#searchFilter::placeholder{
+    font-weight: bold;
+    opacity: 50%;
+}
+#numberOfProducts {
+    /* width:5%; */
+    
+    background-color: #816ce7;
+    padding:4%;
+    border-radius:30px;
+    font-size: 1.3rem;
+    color:white;
+    font-weight: bold;
+    border:none;
+    margin-right:5%;
+
+}
+#numberOfProducts .fa-shopping-cart{
+    font-size: 1.5rem;
+    color:white;
+}
+
+#catList ul li a,#sortList li a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+#catList{
+    display: none;
+}
+#sortList{
+    display: none;
+}
+
+
+#productList{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin-top:2%;
+    justify-content:space-around;
+    flex-wrap: wrap;
+ 
+}
+.productSlika{
+    width:100%;
+    height:60vh;
+}
+.product{
+    width:20%;
+    background-color:white;
+    padding:0.5%;
+    margin:2% 1%;
+    /* z-index: 8;
+    position: relative; */
+}
+.product .pImg{
+    /* position: absolute; */
+    display: none;
+    top:0;
+    left:0;
+    font-size:1rem;
+    margin:25% 5%;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    height:60vh;
+    z-index: -1;
+    /* position:relative; */
+    display: block;
+    overflow: hidden;
+}
+.product h1{
+    width: 100%;
+    height: 13%;
+    font-size:1.5em;
+    margin-top:5%;
+}
+.product h1,p{
+    text-align: center;
+    font-weight: bold;  
+}
+.product h3{
+    margin-top:5%;
+    padding:0% 5%;
+    height:10vh;
+    font-size:1.3rem;
+
+}
+.product p{
+    margin-top:8%;
+    font-size:1.7rem;
+    height: 5%;
+}
+
+.buy, .modal-btn{
+    padding:1% 10%;
+    background: #21152B;
+    letter-spacing: 0.2rem;
+    /* border:2px solid #C14EDD; */
+    color:white;
+    font-weight: bold;    
+    font-size:1.2rem;
+    margin: 5% 20%;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.modal-btn{
+    border: 0;
+    font-size:0.8rem;
+   padding: 1% 8%;
+   margin: 0% 30% 3% 30%;
+   background: #21152B;
+}
+.modal-btn:hover{
+    background-color: #aca0ea;
+    color:#21152B;
+    font-weight: bold;
+}
+.buy:hover{
+    background-color: #aca0ea ;
+    color:#21152B;
+    font-weight: bold;
+    transition: all 0.4s ease 0s;
+}
+.buy .fa-shopping-cart{
+    font-size:1.2rem;
+}
+/* #productView{
+    width:100%;
+    height:auto;
+}
+#productView img{
+    width:50vh;
+    height:70vh;
+} */
+/*forma*/
+#register{
+    width: 90%;
+    margin: 0% 5%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#forma{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+}
+.formaFlex{
+    display: flex;
+    flex-direction: row;
+    margin-top:5%;
+}
+.formaFlex p{
+    margin-right:30%;
+}
+.formaFlex #radioM,#radioF{
+    margin-top:10%;
+    cursor: pointer;
+    
+}
+input{
+    border:2px solid #C14EDD;
+}
+.formaFlex input[type="checkbox"]{
+    margin:5% 20% 0% 0%;
+}
+#formalevo,#formadesno{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+}
+#formalevo p,#formadesno p{
+    font-size: 1rem;
+}
+.marginform{
+    margin-top:2%;
+}
+form label{
+    color:white;
+    font-weight: bold;
+}
+form p,#aboutme p{
+    color:white;
+}
+#firstname,#lastname,#password,#confPassword,#email,#phone{
+    width:100%;
+    margin-bottom:3%;
+    padding:2%;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+label{
+    font-size: 1rem;
+    margin:3% 0% 2% 0%;
+    text-align: center;
+
+}
+label[for="ddl"],label[for="textarea"]{
+    margin-top:5%;
+    text-align: center;
+    margin-bottom:3%;
+}
+#ddl,#textarea{
+    font-weight: bold;
+    border-radius: 30px;
+    width:100%;
+    height:30vh;
+    font-size: 1rem;
+    margin-top:-1%;
+    border:2px solid #C14EDD;
+    height:4vh;
+}
+#ddl{
+    width:100%;
+    height:5vh;
+}
+#textarea{
+    height:18vh;
+}
+
+#button{
+    cursor: pointer;
+   width:50%;
+   margin:12% 0% 0% 29%;
+   border-radius: 20px;
+    font-weight: bold;
+   font-size: 1.2rem;
+   height:5vh;
+    border:none;
+    background-color: #aca0ea ;
+    color:#21152B;
+    letter-spacing: 0.1rem;
+}
+#button:hover{
+    background-color:#C14EDD;
+}
+
+/*AUTHOR*/
+#author{
+    width:100%;
+}
+#authorflex{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:5%;
+}
+.authorText{
+    width:50%;
+}
+.authorText p{
+    font-size: 1.2rem;
+    color:white;
+    letter-spacing: 4px;
+    line-height: 30px;
+}
+i{
+    color:white;
+    font-size: 30pt;
+}
+#mojaslika{
+    width:30%;
+    height:50vh;
+    background-image: url('../IMG/mojaslika.jpg');
+    background-size: cover;
+    border:5px solid white;
+}
+#fa-links{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+
+}
+footer h1{
+    text-transform: uppercase;
+}
+.divFooter{
+    margin-top:3%;
+    width:25%;
+}
+footer i{
+    font-size:20pt;
+    color:black;
+}
+.divContact{
+    display: flex;
+    flex-direction: row;
+    margin-top:5%;
+    text-align: center;
+}
+.divContact .fas,.far{
+    margin-left:5%;
+}
+.divFooter li{
+    margin-top:5%;
+    text-align: center;
+}
+.footerinfo{
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
+#divSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5%;
+}
+#divSocial i{
+    font-size:30pt;
+}
+
+#newsletter{
+    margin-top:5%;
+}
+#newsletter h1{
+    margin-bottom:5%;
+}
+
+#newsletterEmail{
+    width:50%;
+    height: 30px;
+    border-radius: 20px 0px 0px 20px;
+    border:2px solid black;
+    padding-left:10px;
+}
+#newsletterEmail::placeholder{
+    font-weight: bold;
+}
+#newsletterSubmit{
+    height: 5.2vh;
+    border-radius: 0px 20px 20px 0px;
+    font-weight: bold;
+    border:2px solid black;
+    background-color:black;
+    color:white
+    ;
+    
+}
+#credits{
+    background-color: white;
+    padding-bottom:2%;
+}
+#credits p{
+    font-size: 1rem;
+}
+#credits a{
+    color: #21152B;
+    text-decoration: none;
+    font-weight: bold;
+}
+.top{
+    position: fixed;
+    bottom:1%;
+    right: 1%;
+    display: none;
+    cursor:pointer;
+}
+.fa-chevron-up{
+
+    font-size: 3rem;
+   
+}
+.spanError{
+    margin-top:30%;
+}
+
+
+.modalFooter {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height:100vh;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+  
+  .modal-contentFooter {
+    margin: 10% auto;
+    width: 50%;
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+    
+  }
+
+  .modal-bodyFooter {
+    padding: 4%;
+    background: #fff;
+    border-radius: 40px;
+  }
+.modal-bodyFooter p{
+    font-size: 1rem;
+    color:#21152B;
+    font-weight: bold;
+}
+  
+  .close {
+    color: #ccc;
+    float: right;
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #21152B;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+} 
+:root {
+    --modal-duration: 1s;
+
+}
+/*MODAL CHECKOUT*/
+
+.modalCheckout {
+    display: none;
+    position: fixed; 
+    padding-top: 10%;
+    left: 0; 
+    top: 0;
+    width: 100%;
+    height: 100vh; 
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
+  .modal-contentCheckout {
+    position: relative; 
+    background-color: white;
+    padding: 1%; 
+    margin: auto;
+    margin-top:-5%;
+    width: 50%;  
+    height: auto;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  .modal-contentCheckout  p{
+    text-align: center;
+    margin-right:1%;
+    margin-top:1%;
+}
+.modal-contentCheckout #checkout{
+    font-weight: bold;
+    color:white;
+    background-color:#21152B;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding:1.5%;
+    margin:0% 45%;
+    margin-top:2%;
+   
+}
+
+.modal-contentCheckout #checkout:hover{
+    color:#21152B;
+    background-color:#aca0ea;
+}
+  .close-btnCheckout {
+    float: right; 
+    color: lightgray; 
+    font-size: 24px;  
+    font-weight: bold;
+  }
+  .close-btnCheckout:hover {
+    color: darkgray;
+  }
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  .tableCheckout{
+      width:100%;
+  }
+  .invert{
+        font-weight: bold;
+  }
+  .rem button{
+      font-weight: bold;
+      color:white;
+      background-color:#21152B;
+      border:none;
+      border-radius: 20px;
+      cursor: pointer;
+      padding: 7% 12%;
+  }
+  .tableCheckout th {
+    background: #21152B;
+    color: #fff;
+    font-size: 16px;
+    border-right: 1px solid #ded2d2;
+    text-align: center;
+    padding: 2% 1%;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.tableCheckout td {
+    text-align: center;
+    /* padding: 2%; */
+    font-size: 1em;
+    color: #212121;
+}
+
+.tableCheckout td {
+    border: 1px solid #CDCDCD;
+}
+
+td.invert-image a img {
+    margin: 0 auto;
+}
+
+
+
+/*MEDIA*/
+
+@media only screen and (max-width: 1925px){
+
+    #logoSredina h1{
+        font-size:12rem;
+    }
+    header{
+        background-size: contain;
+        
+    }
+    .overlayMenu{
+        width:35%;
+    }
+    #menuList ul li{
+        margin:25% 0%;
+    }
+    .naslov{
+        font-size: 5rem;
+    }
+
+    .slideshowdiv{
+        margin:0;
+    }
+    #slikaWelcome1{
+        margin:0;
+    }
+    .blokP .av-container {
+        margin:0% 2%;
+        
+    }
+    
+    .blokP{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:90%;
+    }
+
+
+    #slikaWelcome2,#slikaWelcome3,#slikaWelcome1{
+        width:40%;
+    }
+    #slikaWelcome3{
+        margin-left:10%;
+    }
+
+    #signFormaDiv{
+        width:35%;
+        margin-left:38%;
+
+    }
+    .zvezdica{
+        font-size:7rem;
+        margin:2% 48%
+    }
+    #productList{
+        justify-content: center;
+        
+    }
+   
+    .product h3{
+        font-size:2rem;
+     
+    }
+ 
+    #authorflex p{
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+ 
+    #fa-links i{
+       font-size:3rem;
+    }
+    #fa-links{
+        margin-left:15%;
+    }
+    #forma{
+       width:100%;
+    }
+    #forma label{
+        font-size:1.5rem;
+    }
+    footer a,p{
+        font-size:1.2rem;
+    }
+    .divFooter{
+        width:30%;
+        
+    }
+    #footer{
+        padding-bottom:2%;
+    }
+    #credits p{
+        font-size: 1.2rem;
+        margin:0%7%;
+    }
+    #newsletterEmail{
+        height:5vh;
+    }
+    #popup_box h1{
+        font-size: 5rem;
+    }
+    #popup_box p{
+        font-size: 2rem;
+    }
+    #ispisBlok .opisKristal{
+   
+        line-height: 2rem;
+        }
+    #ispisBlok .opisZnak{
+   
+            line-height: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1400px){
+   
+    #menuList{
+        margin:0% 23%;
+    }
+    #menuList ul li{
+        margin: 8% 0%;
+    }
+    #menuList ul li a{
+       font-size: 3rem;
+    }
+    #menuBasket i{
+        font-size:2rem;
+    }
+    .naslov{
+        font-size:6rem;
+    }
+    .blokP p{
+        font-size:1rem;
+    }
+    header{
+        background-size:50%;
+        background-position-y: 50%;
+    }
+    #logoSredina h1{
+        font-size: 9rem;
+    }
+    #forma label{
+        font-size:1.2rem;
+    }
+    #slikaWelcome1,#slikaWelcome2,#slikaWelcome3,.slideshowdiv{
+        height: 60vh;
+        margin-top:3%;
+    }
+    #authorflex{
+        width:90%;
+    }
+    .product img,.productSlika{
+        height: 50vh;
+    }
+    .product h3{
+        font-size: 1.7rem;
+    }
+    #mojaslika{
+        height: 60vh;
+        width:40%;
+    
+    }
+    #authorflex p{
+        font-size: 1.2rem;
+        line-height: 2.3rem;
+    }
+    #fa-links i{
+        font-size: 2rem;
+    }
+    #popup_box h1{
+        font-size: 3.5rem;
+    }
+    #popup_box p{
+        font-size: 1.2rem;
+    }
+    #popup_box{
+        left:30%;
+    }
+    #button{
+        margin-top:17%;
+        margin-left:27%;
+    }
+}
+@media only screen and (max-width: 1280px){
+
+    .naslov{
+        font-size:5rem;
+    }
+    #logoSredina h1{
+        margin-top:8%;
+        font-size:8rem;
+     }
+     .overlayMenu{
+        width:40%;
+    }
+    #menuList ul li a{
+        font-size:4rem;
+    }
+    #menuList ul li {
+        margin:15% 0%;
+    }
+    #menuBasket i{
+        font-size:3rem;
+    }
+    #logoSredina h1{
+        margin-top:10%;
+        font-size:5rem;
+     }
+
+    .blokP p{
+         font-size: 1rem;
+     }
+     #slikaWelcome1,#slikaWelcome2,#slikaWelcome3,.slideshowdiv{
+         height: 60vh;
+         margin-top:3%;
+     }
+     .product h3{
+        font-size: 1.3rem;
+    }
+    .product h1{
+        font-size: 1.2em;
+    }
+    .product img,.productSlika{
+        height: 40vh;
+    }
+    #authorflex{
+        width:90%;
+    }
+    #authorflex p{
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+    #mojaslika{
+        height: 50vh;
+        width:40%;
+    
+    }
+    .zvezdica{
+        font-size: 4rem;
+    }
+    #fa-links i{
+        font-size:2rem;
+    }
+    #register{
+        width:100%;
+        margin:0%;
+    }
+    #forma{
+        width:100%;
+    }
+    #button{
+        margin-left:23%;
+    }
+
+    .divFooter h1{
+        font-size: 1.7rem;
+    }
+    .divFooter p,.divFooter a{
+        font-size:1rem;
+     
+    }
+    #newsletterSubmit,#newsletterEmail{
+        height:3.8vh;
+    }
+    #divSocial i{
+        font-size: 2rem;
+    }
+    #credits p{
+        font-size: 1rem;
+    }
+    
+
+}
+@media only screen and (max-width: 1024px){
+
+    #logoSredina h1{
+       margin-top:10%;
+       font-size:5rem;
+    }
+
+    #menuList ul li a{
+        font-size:3rem;
+    }
+    #menuBasket i{
+        font-size:2rem;
+    }
+    .overlayMenu{
+        width:45%;
+    }
+    #popup_box h1{
+        font-size: 2.5rem;
+    }
+    #popup_box p{
+        font-size: 1rem;
+    }
+    #popup_box{
+        height: 30vh;
+    }
+    .product h1{
+        margin-bottom:30%;
+    }
+    #categories,#sort{
+        font-size:1.2em;
+    }
+    #sort{
+        padding-bottom: 2%;
+        margin-left:-15%;
+        
+    }
+    #catList{
+        width:50%;
+        margin-left:-2%;
+     }
+     #sortList{
+         width:100%;
+         margin-left:0%;
+         
+     }
+     #sortList ul{
+         width:100%;
+     }
+     #catList li,#sortList li{
+        font-size: 0.9em;
+    }
+    .productModalInfo .buy{
+        font-size: 1em;
+    }
+    .nameMod{
+        font-size:1.3rem ;
+    }
+    .priceMod{
+        font-size:1rem ;
+    }
+    .description{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 770px){
+
+
+    #logoSredina h1{
+        margin-top:80%;
+    }
+    #menuList ul li a{
+        font-size:2.3rem;
+    }
+    #menuList{ 
+        margin:30% 15%;     
+    }
+    #menuBasket{
+        margin-left:6%;
+    }
+    #menuBasket i{
+        font-size: 2rem;
+    }
+    .fa-times{
+        margin-left:83%;
+        font-size:2rem;
+    }
+     #shopnowBtn{
+        font-size:1.4rem;
+     }
+     .fa-bars{
+         font-size: 2rem;
+         margin-left:90%;
+     }
+     .fa-times{
+        margin-left:80%;
+     }
+     .top{
+        right:5%;
+        font-size: 1rem;
+    }
+    .naslov{
+        font-size: 3.3rem;
+    }
+    .dot{
+        font-size: 2rem;
+    }
+    .blokP p,#benefits p{
+        font-size: 0.7rem;
+        line-height: 1.3rem;
+        margin-top:5%;
+    }
+    #benefits p{
+        margin-top:25%;
+    }
+    #productList{
+        flex-wrap: wrap;
+        margin:0;
+    }
+    .product{
+        width:30%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .productSlika,.product img{
+        height: 50vh;
+    }
+    
+    .product h3{
+        height: 5vh;
+    }
+    .product h1{
+        height: 0%;
+    }
+    .product h3,.product p{
+        font-size:1rem;
+    }
+    #authorflex p{
+        font-size:0.7rem;
+        line-height: 1.2rem;
+    }
+    #fa-links i{
+        font-size:1.5rem;
+    }
+    #forma{
+        width: 90%;
+    }
+    #register label{
+        font-size:1rem;
+    }
+    .divFooter p,.divFooter a{
+        font-size: 0.8rem;
+    }
+    .divFooter h1{
+        font-size: 1.5rem;
+    }
+     #divSocial i{
+         font-size: 2rem;
+     }
+    #credits p{
+        font-size:0.7rem;
+
+    }
+    #ispisBlok .opisKristal{
+        font-size:0.7rem;
+        line-height: 1rem;
+    }
+    #ispisBlok .opisZnak{
+        font-size:0.7rem;
+        line-height: 1rem;
+    }
+    #popup_box h1{
+        font-size: 2rem;
+        margin-top:10%;
+    }
+    #popup_box p{
+        font-size: 1rem;
+    }
+    #popup_box{
+        height: 30vh;
+    }
+    .productModalInfo .buy{
+        font-size: 1em;
+    }
+    .nameMod{
+        font-size:1rem ;
+    }
+    .priceMod{
+        font-size:1rem ;
+    }
+    .description{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 380px){
+
+    #productBar{
+        flex-direction: column;
+    }
+    .prodToggle:nth-of-type(2),.prodToggle:nth-of-type(1){
+        margin-left:20%;
+    }
+    #categories,#sort{width:100%;}
+    #sort{margin-left: 5%;}
+    #catList,#sortList{
+        margin-left:-55%;
+    }
+    #searchBarAndCart{
+        width: 80%;
+        margin-left: 15%;
+    }
+    #numberOfProducts{
+        width:15%;
+        padding:1%;
+        
+    }
+    #numberOfProducts .fa-shopping-cart{
+        font-size: 1em;
+    }
+    #searchFilter{
+        width:60%;
+    }
+    .prodToggle i{
+        font-size: 0.8em;
+    }
+    #logoSredina {
+        margin:15% 20%;
+
+    }
+    header{
+        background-size: contain;
+        background-position-y: 75%;
+    }
+    #logoSredina h1{
+        font-size:4rem;
+        margin:0;
+    }
+    #shopnowBtn{
+        font-size: 1rem;
+        width:60%;
+        margin:4% 50%;
+    }
+    .overlayMenu{
+        width:70%;
+    }
+    #menuList{
+        margin:13% 5%;     
+    }
+    #menuList ul li {
+        margin:12% 0%;
+    }
+    #menuList ul li a{
+        font-size:2rem;
+    }
+    #menuBasket i{
+        font-size:1.5rem;
+        margin-left:10%;
+    }
+    .zvezdica,.naslov{
+        font-size: 3rem;
+    }
+
+    .blokP {
+        flex-direction: column;
+    }
+    .blokP p{
+        font-size:0.7rem;
+        width:90%;
+        line-height: 1rem;
+    }
+    .blokP .av-container{
+        width:100%;
+        margin:0;
+    }
+    #slikaWelcome1,#slikaWelcome2,#slikaWelcome3{
+        margin:0% 15%;
+        width:70%;
+        height:30vh;
+    }
+    .slideshowdiv{
+        height:30vh;
+    }
+    #benefits p{
+        line-height: 1rem;
+        width:90%;
+    }
+    #signFormaDiv{
+        width:60%;
+        margin-left:25%;
+    }
+    #dateForm,#submitFormDate{
+        font-size: 0.7rem;
+  
+    }
+    #submitFormDate{
+        width:25%;
+
+    }
+    #productList{
+        flex-direction: column;
+        margin:0;
+    }
+    .product{
+        width:70%;
+        margin: 5% 15%;
+    }
+    .productSlika,.product img{
+        height: 60vh;
+    }
+    .product h3{
+        font-size:1rem;
+        height: 5vh;
+    }
+    #authorflex{
+        flex-direction: column;
+    }
+    #mojaslika{
+        width:70%;
+        height: 40vh;
+        
+    }  
+    .authorText{
+        width:80%;
+    } 
+    #author p{
+        margin-top:5%;
+        font-size:0.7rem;
+        line-height: 1rem;
+        width:100%;
+        
+    }
+    #fa-links i{
+        font-size: 1.5rem;
+        
+    }
+   #forma{
+       flex-direction: column;
+        margin:0;
+        width:100%;
+   }
+   #formalevo,#formadesno{
+       width:70%;
+       margin:0% 15%;
+   }
+   #forma label{
+       font-size:1rem;
+   }
+   #footer{
+       flex-direction: column;
+       justify-content: normal;
+   }
+   .divFooter{
+       width:80%;
+   }
+   .divFooter p,.divFooter a{
+       font-size: 1rem;
+   }
+   .divFooter a{
+       padding:0;
+   }
+   .divFooter h1{
+       font-size: 1.5rem;
+       margin-top:10%;
+   }
+    #divSocial i{
+        font-size: 2rem;
+    }
+   #credits p{
+       font-size:1rem;
+       padding-top:10%;
+   }
+   #shopnowBtn{
+        height: 4vh;
+   }
+   #ispisBlok{
+       flex-direction: column;
+   }
+   #ispisBlok .opisKristal{
+    font-size:0.7rem;
+    line-height: 1rem;
+    }
+    #ispisBlok .opisZnak{
+        font-size:0.7rem;
+        line-height: 1rem;
+    }
+    .ispisZnaka,.ispisKristal{
+        width:80%;
+    }
+
+    #popup_box h1{
+        font-size: 1rem;
+        margin-top:20%;
+    }
+    #popup_box p{
+        font-size: 0.5rem;
+    }
+    #popup_box{
+        height: 20vh;
+        width: 50%;
+        left:27%;
+    }
+    .modal-body p{
+        font-size: 0.8rem;
+        color:#21152B;
+        font-weight: bold;
+    }
+    .modal-content {
+  
+        flex-direction: column;
+    }
+    .productModalInfo .buy{
+        font-size: 1em;
+    }
+    .nameMod{
+        font-size:1rem ;
+    }
+    .priceMod{
+        font-size:1rem ;
+    }
+    .description{
+        font-size: 0.8rem;
+    }
+
+}
+
+/*MODAL PRODUCT*/
+
+.modal {
+    /* display: none;
+    position: fixed; 
+   
+    left: 0; 
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10; */
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding-top: 20%;
+    height:100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+   
+    background-color: white;
+    padding: 20px; 
+    margin: auto; 
+    width: 65%;  
+    height: auto;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .close-btn {
+    float: right;
+    color: rgb(133, 132, 132); 
+    font-size: 24px;  
+    font-weight: bold;
+  }
+  .close-btn:hover {
+    color: darkgray;
+  }
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  .productModalInfo .buy{
+    font-size: 1.5rem;
+    margin: 0;
+    width: 50%;
+    /* margin: 0 20%; */
+    text-align: center;
+    margin: 20% 22%;
+  }
+  .productModalInfo .buy i {
+      font-size: 1.7rem;
+  } 
+  .productModalInfo h1,.productModalInfo p{
+    text-align: center;
+}
+.description{
+    margin-top: 10%;
+    font-size: 1rem;
+}
+.productModalInfo h1{
+    margin: 7% 0;
+}
+  .productModalInfo{
+      width:50%;
+      padding: 0 1% 0 2%;
+  }
+  /* .modal-content .buy{
+    margin: 10% 0%;
+  } */
+  .productSlikaMod{
+      width:50%;
+      height: 54vh;
+    background-position: center;
+    background-size: cover;
+
+  }
+ 
+ .priceBuy{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     margin: 6% 0%;
+ }.priceBuy i{
+     width:20%;
+     margin: 1.5% -12% 0 0;
+     color:#aca0ea;
+     font-size: 1.5rem;
+ }
+ .priceMod{
+     width:30%;
+     height: 10%;
+     padding: 1% 0 ;
+     border-radius: 50px;
+     font-size: 1.5rem;
+     /* border: 3px solid #21152B; */
+     background-color: #aca0ea;
+     
+ }
+.inputQ {
+    padding: -10%;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 5vh;
+    width: 20%;
+    padding-left: 8%;
+    border:2px solid#aca0ea;
+}
+
